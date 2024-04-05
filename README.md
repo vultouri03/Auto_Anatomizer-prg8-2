@@ -12,3 +12,4 @@ Known issues
 
 when opening the console an error might appear telling you that the array to classify a pose is empty, this is because of the fact that when opening the app there is one frame where the NN is faster than the pose landmarker causing one pose to classify to empty. this has no consequences for the working of the app.
 
+The same issue happens with some other console errors related to that same issue, they don't interfere with the working of the app and are only visual in the console
