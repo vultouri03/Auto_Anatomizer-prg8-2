@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module" src="Collect.js" defer></script>
+</head>
+<body>
+<select name="pose" id="pose_select">
+    <option value="neutral">Neutral</option>
+    <option value="left_up">left up</option>
+    <option value="right_up">right up</option>
+    <option value="both_up">both up</option>
+</select>
+<button id="readPose">Read pose</button>
+<video id="webcam" style="position: absolute" autoplay playsinline muted></video>
+<canvas id="app" style="position: absolute";></canvas>
+<img src="https://github.com/HR-CMGT/PRG08-2023-2024/blob/main/images/sunglasses.png?raw=true" style="position: absolute; width: 80px; height: 50px" alt="sunglasses" class="sunglasses">
+
+</body>
+</html>
